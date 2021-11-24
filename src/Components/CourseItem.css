@@ -21,7 +21,6 @@
 .movies .box-container .box img{
     height: 100%;
     width: 100%;
-    /* object-fit: cover; */
 }
 
 .movies .box-container .box .info{
@@ -37,9 +36,6 @@
     bottom:0;
 }
 
-/* section{
-    padding: 1% 5% 2% ;
-}  */
 
 .movies .box-container .box .info h3{
     font-size: 20px;
@@ -56,7 +52,6 @@
 .movies .box-container .box .info p{
     font-size: 12px;
     color:#ccc;
-    /* padding: 1px 0; */
 }
 
 @media (max-width:768px){
