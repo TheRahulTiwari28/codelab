@@ -37,11 +37,9 @@
     bottom:0;
 }
 
-section{
-    /* min-height: 100vh; */
+/* section{
     padding: 1% 5% 2% ;
-    /* padding-top: 100px; */
-} 
+}  */
 
 .movies .box-container .box .info h3{
     font-size: 20px;
