@@ -33,7 +33,7 @@
 }
   
 .contact form{
-    flex: 1 1 50rem;
+    flex: 1 1 40rem;
     border: 1px solid rgba(0,0,0,.1);
     border-radius: .5rem;
     padding: 12px;
@@ -65,7 +65,7 @@
 }
   
 .contact form .inputBox input{
-    width: 49%;
+    width: 48%;
 }
   
 .contact form textarea{
