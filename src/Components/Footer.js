@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import "./Footer.css"
 
 const Footer = () => {
@@ -12,18 +13,18 @@ const Footer = () => {
                     </div>
                     <div className="box">
                         <h3>quick links</h3>
-                        <a href="/">home</a>
-                        <a href="/course">Language</a>
-                        {/* <a href="/">teacher</a>
-                        <a href="/">price</a>
-                        <a href="/">review</a> */}
-                        <a href="/contact">contact</a>
+                        <NavLink to="/">home</NavLink>
+                        <NavLink to="/course">Language</NavLink>
+                        {/* <NavLink to="/">teacher</NavLink>
+                        <NavLink to="/">price</NavLink>
+                        <NavLink to="/">review</NavLink> */}
+                        <NavLink to="/contact">contact</NavLink>
                     </div>
                     <div className="box">
                         <h3>follow us</h3>
-                        <a href="https://www.facebook.com/profile.php?id=100043219863014" target="blank">facebook</a>
-                        <a href="https://www.instagram.com/_i_am_rahul_9/" target="blank">instagram</a>
-                        <a href="https://www.linkedin.com/in/rahul-tiwari-6a90051b4/" target="blank">linkedin</a>
+                        <NavLink to="https://www.facebook.com/profile.php?id=100043219863014" target="blank">facebook</NavLink>
+                        <NavLink to="https://www.instagram.com/_i_am_rahul_9/" target="blank">instagram</NavLink>
+                        <NavLink to="https://www.linkedin.com/in/rahul-tiwari-6a90051b4/" target="blank">linkedin</NavLink>
                     </div>
                     <div className="box">
                         <h3>contact us</h3>
