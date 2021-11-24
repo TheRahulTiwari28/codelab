@@ -1,0 +1,72 @@
+.movies .heading span{
+    color:#fff;
+}
+
+.movies .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movies .box-container .box{
+    flex: 1 1 17rem;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px;
+    /* box-shadow: 0 2px 10px #000; */
+}
+
+.movies .box-container .box img{
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.movies .box-container .box .info{
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom:-100%; 
+    left:0;
+    background:rgba(0,0,0,.7);
+}
+
+.movies .box-container .box:hover .info{
+    bottom:0;
+}
+
+section{
+    /* min-height: 100vh; */
+    padding: 1% 5% 2% ;
+    /* padding-top: 100px; */
+} 
+
+.movies .box-container .box .info h3{
+    font-size: 20px;
+    color:#fff;
+    padding-bottom: 0px;
+}
+
+
+.movies .box-container .box .info span{
+    font-size: 16px;
+    color: #e62429;
+}
+
+.movies .box-container .box .info p{
+    font-size: 12px;
+    color:#ccc;
+    /* padding: 1px 0; */
+}
+
+@media (max-width:768px){
+    .movies .box-container .box .info h3{
+        font-size: 16px;
+    }
+    .movies .box-container .box .info span{
+        font-size: 14px;
+    }
+
+}

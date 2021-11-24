@@ -1,0 +1,49 @@
+section{
+    padding: 1rem 5%;
+}
+/* .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 8px 18px;
+    border-radius: .5rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+.btn:hover{
+    background: #FC427B;
+} */
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+  
+.home .content{
+    flex:1 1 40rem;
+}
+  
+.home .image{
+    flex:1 1 26rem;
+}
+  
+.home .image img{
+    width:100%;
+}
+  
+.home .content h3{
+    color:transparent;
+    background: #6c5ce7;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 40px;
+}
+  
+.home .content p{
+    padding:.5rem 0;
+    font-size: 16px;
+    color:#666;
+}
