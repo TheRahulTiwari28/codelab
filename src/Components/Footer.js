@@ -29,7 +29,7 @@ const Footer = () => {
                     <div className="box">
                         <h3>contact us</h3>
                         <p> <i className="fas fa-phone"></i> +123-456-7890 </p>
-                        <p> <i className="fas fa-envelope"></i> codelab@gmail.com </p>
+                        <p> <i className="fas fa-envelope"></i> languagelab@gmail.com </p>
                         <p> <i className="fas fa-map-marker-alt"></i> mumbai, india - 400016 </p>
                     </div>
                 </div>

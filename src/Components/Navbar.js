@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="nav-center">
                 <div className="nav-header">
                     <NavLink to="index.html" className="nav-logo">
-                        <h1>CodeLab</h1>
+                        <h1>LanguageLab</h1>
                     </NavLink>
                     <button className="nav-btn" onClick={() => SetShow(!Show)}>
                         <FiAlignJustify />
