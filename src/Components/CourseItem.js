@@ -6,13 +6,13 @@ import './CourseItem.css'
 const CourseItem = ({img, title, paragraph, link, span}) => {
     return (
         <>
-        <div class="box">
+        <div className="box">
             <img src={img} alt=""/>
-            <div class="info">
+            <div className="info">
                 <h3>{title}</h3>
                 <span>{span}</span>
                 <p>{paragraph}</p>
-                <a href={link} class="btn" target='blank'>Watch online</a>
+                <a href={link} className="btn" target='blank'>Watch online</a>
             </div>
         </div>   
         </>

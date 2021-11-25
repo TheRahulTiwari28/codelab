@@ -1,0 +1,53 @@
+.review{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+  
+.review .box{
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+    flex: 1 1 24rem;
+}
+  
+.review .box .student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.review .box .student .student-info{
+    display: flex;
+    align-items: center;
+}
+  
+.review .box .student i{
+    font-size: 32px;
+    color: var(--pink);
+    opacity: .6;
+}
+  
+.review .box .student .student-info img{
+    /* border-radius: 50%; */
+    /* object-fit: cover; */
+    height: 70px;
+    width: 80px;
+    margin-right: 16px;
+}
+  
+.review .box .student .student-info h3{
+    font-size: 16px;
+    color:#333;
+}
+  
+.review .box .student .student-info span{
+    font-size: 14px;
+    color:var(--pink);
+}
+  
+.review .box .text{
+    padding: 14px 0;
+    font-size: 14px;
+    color:#666;
+}

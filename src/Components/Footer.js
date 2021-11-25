@@ -15,9 +15,8 @@ const Footer = () => {
                         <h3>quick links</h3>
                         <NavLink to="/">home</NavLink>
                         <NavLink to="/course">Language</NavLink>
-                        {/* <NavLink to="/">teacher</NavLink>
-                        <NavLink to="/">price</NavLink>
-                        <NavLink to="/">review</NavLink> */}
+                        <NavLink to="/teacher">teacher</NavLink>
+                        <NavLink to="/review">review</NavLink>
                         <NavLink to="/contact">contact</NavLink>
                     </div>
                     <div className="box">

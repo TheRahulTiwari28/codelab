@@ -5,15 +5,15 @@ import HomeImg from '../assets/images/home-img.svg'
 const Hero = () => {
     return (
         <div>
-            <section class="home">
+            <section className="home">
 
-                <div class="content">
+                <div className="content">
                     <h3>E-learning is a better way of learning</h3>
                     <p>“Online learning is rapidly becoming one of the most cost-effective ways to educate the world’s rapidly expanding workforce.”</p>
                     <a href="/" className="btn">get started</a>
                 </div>
 
-                <div class="image">
+                <div className="image">
                     <img src={HomeImg} alt=""/>
                 </div>
 

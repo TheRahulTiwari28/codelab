@@ -20,8 +20,8 @@ const Navbar = () => {
                 <div className={Show ? "nav-links show-links" : "nav-links"}>
                     <NavLink to="/" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Home</NavLink>
                     <NavLink to="/course" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Language</NavLink>
-                    {/* <NavLink to="/teacher" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Teacher</NavLink> */}
-                    {/* <NavLink to="/price" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Price</NavLink> */}
+                    <NavLink to="/teacher" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Teacher</NavLink>
+                    <NavLink to="/review" exact className="nav-link" activeClassName="active-link" onClick={() => SetShow(false)}>Reviews</NavLink>
                     <div className="nav-link contact-link" activeClassName="active-link" onClick={() => SetShow(false)}>
                         <NavLink to="/contact" exact className="btn" activeClassName="active-link" onClick={() => SetShow(false)}>Contact</NavLink>
                     </div>

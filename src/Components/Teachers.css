@@ -1,0 +1,52 @@
+.teacher{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+  
+.teacher .box{
+    flex:1 1 18rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+}
+  
+.teacher .box img{
+    height: 120px;
+    width: 150px;
+    margin: 5px 0;
+}
+  
+.teacher .box h3{
+    color:var(--violet);
+    font-size: 16px;
+}
+  
+  
+.teacher .box span{
+    color:var(--pink);
+    font-size: 14px;
+}
+  
+.teacher .box p{
+    color:#666;
+    font-size: 12px;
+    padding: 10px 0;
+}
+  
+.teacher .box .share a{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    background: var(--pink);
+    border-radius: 4px;
+    margin: 3px;
+    color:#fff;
+}
+  
+.teacher .box .share a:hover{
+    background:var(--violet);
+}
+  

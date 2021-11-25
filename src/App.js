@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Course from './Pages/Course';
 import Teacher from './Pages/Teacher';
-import Price from './Pages/Price';
+import Review from './Pages/Review';
 import Footer from './Components/Footer'
 import Contact from './Pages/Contact'
 import {
@@ -29,8 +29,8 @@ function App() {
           <Route path="/teacher" exact>
             <Teacher/>
           </Route>
-          <Route path="/price" exact>
-            <Price/>
+          <Route path="/review" exact>
+            <Review/>
           </Route>
           <Route path="/contact" exact>
             <Contact/>
