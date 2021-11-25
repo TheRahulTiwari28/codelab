@@ -3,7 +3,7 @@ import './CourseItem.css'
 // import Html from '../assets/images/react.png';
 
 
-const CourseItem = ({img, title, paragraph, link, span}) => {
+const CourseItem = ({img, title, paragraph, link, span, view}) => {
     return (
         <>
         <div className="box">
@@ -12,7 +12,7 @@ const CourseItem = ({img, title, paragraph, link, span}) => {
                 <h3>{title}</h3>
                 <span>{span}</span>
                 <p>{paragraph}</p>
-                <a href={link} className="btn" target='blank'>Watch online</a>
+                <a href={link} className="btn" target='blank'>{view} online</a>
             </div>
         </div>   
         </>

@@ -11,7 +11,7 @@ const Home = () => {
         <>
             <Hero/>
             <section class="movies" id="movies">
-                <h1 className="heading">Basic Language</h1>
+                <h1 className="heading">Language</h1>
                 <div class="box-container">
                 <CourseItem
                     img={Html}
