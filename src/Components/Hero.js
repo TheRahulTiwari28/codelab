@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="content">
                     <h3>E-learning is a better way of learning</h3>
                     <p>“Online learning is rapidly becoming one of the most cost-effective ways to educate the world’s rapidly expanding workforce.”</p>
-                    <a href="/" className="btn">get started</a>
+                    <a href="/course" className="btn">get started</a>
                 </div>
 
                 <div className="image">
