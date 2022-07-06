@@ -22,7 +22,7 @@ const Course = () => {
     return (
         <>
         <section class="movies" id="movies">
-        <h1 className="heading">Language </h1>
+            <h1 className="heading">Courses </h1>
             <div class="box-container">
                 <CourseItem
                     img={Html}
@@ -84,7 +84,7 @@ const Course = () => {
                     img={vue}
                     title="Vue.js"
                     span="Vue.js"
-                    paragraph="Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members."
+                    paragraph="Vue.js is an open-source model view viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members."
                     link="https://vuejs.org/"
                     view="Read"
                 />
@@ -162,6 +162,12 @@ const Course = () => {
 
             </div>
         </section>
+        {/* <section class="movies" id="movies">
+            <h1 className="heading">Language </h1>
+            <div class="box-container">
+
+            </div>
+        </section> */}
         </>
     )
 }

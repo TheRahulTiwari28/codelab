@@ -20,13 +20,13 @@ const Teacher = () => {
             <section className="teacher">
                 <Teachers
                     img={teacher1}
-                    name="dani daniel"
+                    name="dani"
                     course="HTML/CSS"
                     para="I think it fair to say that personal computers have become the most empowering tool weve ever created. They tools of communication, they tools of creativity"
                 />
                 <Teachers
                     img={teacher2}
-                    name="Jonny"
+                    name="Jonn"
                     course="Javascript"
                     para="Whether you want to uncover the secrets of the universe, or you just want to pursue a career in the 21st century, basic computer programming is an essential skill to learn."
                 />
